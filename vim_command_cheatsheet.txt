@@ -1,0 +1,29 @@
+"" to transform a file in Vim to hex
+:%!xxd 
+
+"" to revert back to file fromat from hex
+:%!xxd -r
+
+"" to enable syntax highlighting for hex editing
+:set ft=xxd
+
+"" enable line numbers
+set number
+
+"" set line number width
+set numberwidth=3
+
+"" disable line nubmers
+set nonumber
+
+"" use this for setting autoindent on
+set autoindent 
+
+"" use this for setting tab to enter spaces
+set expandtab
+
+"" use this for setting space count on tab (2)
+set tabstop=2
+
+"" use this for setting set the >> << operators to indent an existing line
+set shiftwidth=2
